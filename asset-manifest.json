@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.js": "/static/js/main.09f15ba7.chunk.js",
-    "main.js.map": "/static/js/main.09f15ba7.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ca1e487b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ca1e487b.js.map",
-    "static/css/2.bc922b9c.chunk.css": "/static/css/2.bc922b9c.chunk.css",
-    "static/js/2.7745f288.chunk.js": "/static/js/2.7745f288.chunk.js",
-    "static/js/2.7745f288.chunk.js.map": "/static/js/2.7745f288.chunk.js.map",
-    "static/js/3.3f62c5a2.chunk.js": "/static/js/3.3f62c5a2.chunk.js",
-    "static/js/3.3f62c5a2.chunk.js.map": "/static/js/3.3f62c5a2.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.bc922b9c.chunk.css.map": "/static/css/2.bc922b9c.chunk.css.map",
-    "static/js/2.7745f288.chunk.js.LICENSE.txt": "/static/js/2.7745f288.chunk.js.LICENSE.txt",
-    "static/media/digital.e4ab0ada.woff": "/static/media/digital.e4ab0ada.woff",
-    "static/media/github.e132e0ab.svg": "/static/media/github.e132e0ab.svg",
-    "static/media/group.40af839c.svg": "/static/media/group.40af839c.svg",
-    "static/media/link.0b0ad2fa.svg": "/static/media/link.0b0ad2fa.svg",
-    "static/media/stopwatch.f9d3716e.svg": "/static/media/stopwatch.f9d3716e.svg",
-    "static/media/trybe-logo.49042fe0.png": "/static/media/trybe-logo.49042fe0.png",
-    "static/media/user.ac3fdea1.svg": "/static/media/user.ac3fdea1.svg"
+    "main.js": "/trybe-stopwatches/static/js/main.546013df.chunk.js",
+    "main.js.map": "/trybe-stopwatches/static/js/main.546013df.chunk.js.map",
+    "runtime-main.js": "/trybe-stopwatches/static/js/runtime-main.d63ef78d.js",
+    "runtime-main.js.map": "/trybe-stopwatches/static/js/runtime-main.d63ef78d.js.map",
+    "static/css/2.bc922b9c.chunk.css": "/trybe-stopwatches/static/css/2.bc922b9c.chunk.css",
+    "static/js/2.19d29b4e.chunk.js": "/trybe-stopwatches/static/js/2.19d29b4e.chunk.js",
+    "static/js/2.19d29b4e.chunk.js.map": "/trybe-stopwatches/static/js/2.19d29b4e.chunk.js.map",
+    "static/js/3.3f62c5a2.chunk.js": "/trybe-stopwatches/static/js/3.3f62c5a2.chunk.js",
+    "static/js/3.3f62c5a2.chunk.js.map": "/trybe-stopwatches/static/js/3.3f62c5a2.chunk.js.map",
+    "index.html": "/trybe-stopwatches/index.html",
+    "static/css/2.bc922b9c.chunk.css.map": "/trybe-stopwatches/static/css/2.bc922b9c.chunk.css.map",
+    "static/js/2.19d29b4e.chunk.js.LICENSE.txt": "/trybe-stopwatches/static/js/2.19d29b4e.chunk.js.LICENSE.txt",
+    "static/media/digital.e4ab0ada.woff": "/trybe-stopwatches/static/media/digital.e4ab0ada.woff",
+    "static/media/github.e132e0ab.svg": "/trybe-stopwatches/static/media/github.e132e0ab.svg",
+    "static/media/group.40af839c.svg": "/trybe-stopwatches/static/media/group.40af839c.svg",
+    "static/media/link.0b0ad2fa.svg": "/trybe-stopwatches/static/media/link.0b0ad2fa.svg",
+    "static/media/stopwatch.f9d3716e.svg": "/trybe-stopwatches/static/media/stopwatch.f9d3716e.svg",
+    "static/media/trybe-logo.49042fe0.png": "/trybe-stopwatches/static/media/trybe-logo.49042fe0.png",
+    "static/media/user.ac3fdea1.svg": "/trybe-stopwatches/static/media/user.ac3fdea1.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ca1e487b.js",
+    "static/js/runtime-main.d63ef78d.js",
     "static/css/2.bc922b9c.chunk.css",
-    "static/js/2.7745f288.chunk.js",
-    "static/js/main.09f15ba7.chunk.js"
+    "static/js/2.19d29b4e.chunk.js",
+    "static/js/main.546013df.chunk.js"
   ]
 }
