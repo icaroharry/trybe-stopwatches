@@ -129,7 +129,7 @@ function Filters() {
 
       <div className="toggle-cohort">
         {[...new Set(stopwatches.map(stopwatch => stopwatch.cohort))].map(cohort => (
-          <label htmlFor="">
+          <label key={cohort} htmlFor="">
             <ToggleInput
               type="checkbox"
               onChange={(ev) => setSelectedCohorts(cohort, ev.target.checked)}

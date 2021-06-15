@@ -1,5 +1,6 @@
 {
   "name": "trybe-stopwatches",
+  "homepage": "https://icaroharry.github.io/trybe-stopwatches",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
