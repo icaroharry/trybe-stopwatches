@@ -9,6 +9,10 @@ import Loading from './Loading';
 
 // Flexbox container
 const Wrapper = styled.section`
+  @media (max-width:481px)  {
+    width: 100%;
+  }
+
   width: 200px;
   border-radius: 0.5rem;
   background-color: #434343;
@@ -107,7 +111,9 @@ function Card(props) {
     <Wrapper
       onClick={() => window.open(props.url, '_blank')}
       onMouseEnter={ () => setShowInfo(true) }
+      onTouchStart={ () => setShowInfo(true) }
       onMouseLeave={ () => textFilter === '' && setShowInfo(false) }
+      onTouchEnd={ () => textFilter === '' && setShowInfo(false) }
     >
       <Title fade={ showInfo }>{props.repositoryUrl.split('https://github.com/')[1].split('/')[1]}</Title>
       {image ? <BackgroundImage blur={showInfo} src={image} /> : <Loading />}
