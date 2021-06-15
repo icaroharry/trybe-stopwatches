@@ -9,7 +9,7 @@ import Loading from './Loading';
 
 // Flexbox container
 const Wrapper = styled.section`
-  @media (max-width:481px)  {
+  @media (max-width: 570px)  {
     width: 100%;
   }
 
