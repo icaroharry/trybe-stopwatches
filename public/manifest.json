@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Trybe Stopwatches",
+  "name": "Collection of beautiful stopwatches built by Trybe's students",
   "icons": [
     {
       "src": "favicon.ico",
