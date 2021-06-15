@@ -1,4 +1,4 @@
-import { useCallback, useContext, useEffect, useLayoutEffect, useMemo } from 'react';
+import { useContext, useEffect } from 'react';
 import styled from 'styled-components';
 import StopwatchContext from '../context/StopwatchContext';
 import stopwatches from '../data/stopwatches';
@@ -23,7 +23,7 @@ function Gallery() {
       .filter(stopwatch => selectedCohorts[stopwatch.cohort] || showAllCohorts)
         console.log(filtered);
     setFilters((filters) => ({ ...filters, filteredList: filtered }));
-  }, [textFilter, selectedCohorts, showAllCohorts]);
+  }, [textFilter, selectedCohorts, showAllCohorts, setFilters]);
 
   function renderList() {
     return filteredList.length ? filteredList

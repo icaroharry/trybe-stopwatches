@@ -85,14 +85,15 @@ function Card(props) {
 
   useEffect(() => {
     async function fetchPicture() {
-      const result = await fetch(`https://api.apiflash.com/v1/urltoimage?access_key=${process.env.REACT_APP_APIFLASH_KEY}&url=${props.url}`)
-        .then(res => res.blob());
+      const result =
+        await fetch(`https://api.apiflash.com/v1/urltoimage?access_key=${process.env.REACT_APP_APIFLASH_KEY}&url=${props.url}`)
+          .then(res => res.blob());
       
       setImage(URL.createObjectURL(result));
     };
 
     fetchPicture();
-  }, []);
+  }, [props.url]);
 
   useEffect(() => {
     if(textFilter !== '') {
