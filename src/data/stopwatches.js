@@ -79,7 +79,17 @@ const stopwatches = [
     url: 'https://brunopdrs.github.io/trybe-stopwatch/',
     cohort: '8',
     repositoryUrl: 'https://github.com/brunopdrs/trybe-stopwatch',
-  },
+  }, {
+    student: 'Gabriel Rodrigues',
+    url: 'https://timer-trybe.surge.sh/',
+    cohort: '15B',
+    repositoryUrl: 'https://github.com/Huijiro/ReactTimer',
+  }, {
+    student: 'Flavio Bianchetti',
+    url: 'https://timer-trybe.surge.sh/',
+    cohort: '15B',
+    repositoryUrl: 'https://github.com/Huijiro/ReactTimer',
+  }
 ];
 
 export default stopwatches;
