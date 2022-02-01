@@ -84,6 +84,11 @@ const stopwatches = [
     url: 'https://timer-trybe.surge.sh/',
     cohort: '15B',
     repositoryUrl: 'https://github.com/Huijiro/ReactTimer',
+  }, {
+    student: 'Flávio Bianchetti',
+    url: 'https://countdown-bitcoin.surge.sh/',
+    cohort: '15B',
+    repositoryUrl: 'https://github.com/flavio-bianchetti/countdown-bitcoin',
   }
 ];
 
